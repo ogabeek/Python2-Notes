@@ -63,16 +63,31 @@
 # for i in range(1, 6, 1):
 #     print(" " * (6 - i) , "*" * i)
 
-num = 1
-for row in range(1, 10, 1):
-    for col in range(row):
-        print(num,  end = " ")
-        num+=1
-    print()
+
+
+def num_triangle(line):
+    num = 1
+    for row in range(1, line+1, 1):
+        for col in range(row):
+            print(num,  end = " ")
+            num+=1
+        print()
+
+
+
+num_triangle(4)
 
     
+# def avr(num1,num2):
+#     res = (num1+num2)/2
+#     return res
     
-    
-    
+
+
+
+# print(avr(10,8))
+
+
+
     
     
