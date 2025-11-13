@@ -26,3 +26,45 @@
 
     
 
+# a = list("hello world")
+
+
+# l = ["Ogabek", 178, 68.5, True, ["Father", "Mother"], 5  ]
+
+# # print(list)
+# print(l[4][1][2])
+
+
+# print()
+
+# a = [0] * 10
+
+# for i in range(0, len(a), 1):
+#     a.append(i)
+    
+    
+    
+# a = [  i   for i in range(0, 10, 2)   ]
+
+# print(a)
+
+
+
+
+# # 6 7 98 8 9 1
+
+# # ******
+# # *******
+
+
+
+
+# print(*[ "*"*int(i) for i in (input().split())])
+
+
+# a = input().split()
+
+# a = [int(i) for i in a]
+
+
+# print(a)
