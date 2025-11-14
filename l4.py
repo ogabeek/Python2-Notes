@@ -86,3 +86,44 @@
 
 
 
+# a = {"name":"Ogabek", "height":178, 2:3.5, 3:True}
+
+
+# print(a["height"])
+
+
+# dict1 = {}
+
+# print(type(dict1))
+
+# name = 'Rick'
+
+# my_dict = {name: 25, 2: 'python', 'name': 'Bob'}
+# #Error
+
+# print(my_dict[name])
+# print(my_dict['Rick'])
+
+
+
+
+s= "hello world this is python"
+
+d = {}
+
+# for i in s: 
+#     if i in d:
+#         d[i] += 1
+#     else:
+#         d[i] = 1
+
+
+for i in s:
+    d[i] = d.get(i, 0) + 1  
+        
+print(d)
+
+
+
+
+
